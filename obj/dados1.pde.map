@@ -1,0 +1,574 @@
+Archive member included because of file (symbol)
+
+.\obj\arduino_runtime_atmega328p_withlibs.a(wiring.c.o)
+                              .\obj\dados1.pde.cpp.o (delay)
+.\obj\arduino_runtime_atmega328p_withlibs.a(wiring_analog.c.o)
+                              .\obj\dados1.pde.cpp.o (analogWrite)
+.\obj\arduino_runtime_atmega328p_withlibs.a(wiring_digital.c.o)
+                              .\obj\dados1.pde.cpp.o (pinMode)
+.\obj\arduino_runtime_atmega328p_withlibs.a(main.cpp.o)
+                              c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o (main)
+.\obj\arduino_runtime_atmega328p_withlibs.a(pins_arduino.c.o)
+                              .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_digital.c.o) (port_to_mode_PGM)
+c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+                              c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o (exit)
+c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+                              .\obj\dados1.pde.cpp.o (__do_copy_data)
+c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+                              .\obj\dados1.pde.cpp.o (__do_clear_bss)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+LOAD .\obj\dados1.pde.cpp.o
+LOAD .\obj\arduino_runtime_atmega328p_withlibs.a
+LOAD c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a
+LOAD c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5\libc.a
+LOAD c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0x7dc
+ *(.vectors)
+ .vectors       0x00000000       0x68 c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+ .progmem.data  0x00000068       0x5a .\obj\arduino_runtime_atmega328p_withlibs.a(pins_arduino.c.o)
+                0x00000068                port_to_mode_PGM
+                0x00000086                digital_pin_to_port_PGM
+                0x0000009a                digital_pin_to_bit_mask_PGM
+                0x00000072                port_to_output_PGM
+                0x0000007c                port_to_input_PGM
+                0x000000ae                digital_pin_to_timer_PGM
+                0x000000c2                . = ALIGN (0x2)
+                0x000000c2                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000c2        0x0 linker stubs
+ *(.trampolines*)
+                0x000000c2                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000c2                __ctors_start = .
+ *(.ctors)
+                0x000000c2                __ctors_end = .
+                0x000000c2                __dtors_start = .
+ *(.dtors)
+                0x000000c2                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000c2        0x0 c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+                0x000000c2                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000c2        0xc c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000000ce       0x16 c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+                0x000000ce                __do_copy_data
+ .init4         0x000000e4       0x10 c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+                0x000000e4                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000f4        0x8 c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+ *(.init9)
+ *(.text)
+ .text          0x000000fc        0x4 c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+                0x000000fc                __vector_22
+                0x000000fc                __vector_1
+                0x000000fc                __vector_24
+                0x000000fc                __vector_12
+                0x000000fc                __bad_interrupt
+                0x000000fc                __vector_6
+                0x000000fc                __vector_3
+                0x000000fc                __vector_23
+                0x000000fc                __vector_25
+                0x000000fc                __vector_11
+                0x000000fc                __vector_13
+                0x000000fc                __vector_17
+                0x000000fc                __vector_19
+                0x000000fc                __vector_7
+                0x000000fc                __vector_5
+                0x000000fc                __vector_4
+                0x000000fc                __vector_9
+                0x000000fc                __vector_2
+                0x000000fc                __vector_21
+                0x000000fc                __vector_15
+                0x000000fc                __vector_8
+                0x000000fc                __vector_14
+                0x000000fc                __vector_10
+                0x000000fc                __vector_18
+                0x000000fc                __vector_20
+ .text          0x00000100      0x20a .\obj\dados1.pde.cpp.o
+                0x00000100                loop
+                0x000002c2                setup
+ .text          0x0000030a      0x232 .\obj\arduino_runtime_atmega328p_withlibs.a(wiring.c.o)
+                0x000004c8                init
+                0x000003b6                micros
+                0x00000402                delay
+                0x0000030a                __vector_16
+                0x0000039a                millis
+                0x000004b4                delayMicroseconds
+ .text          0x0000053c       0xfc .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_analog.c.o)
+                0x00000586                analogWrite
+                0x0000053c                analogReference
+                0x00000542                analogRead
+ .text          0x00000638      0x192 .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_digital.c.o)
+                0x0000072c                digitalRead
+                0x00000684                digitalWrite
+                0x00000638                pinMode
+ .text          0x000007ca        0xe .\obj\arduino_runtime_atmega328p_withlibs.a(main.cpp.o)
+                0x000007ca                main
+ .text          0x000007d8        0x0 .\obj\arduino_runtime_atmega328p_withlibs.a(pins_arduino.c.o)
+ .text          0x000007d8        0x0 c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+ .text          0x000007d8        0x0 c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+ .text          0x000007d8        0x0 c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+                0x000007d8                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x000007d8        0x0 c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x000007d8        0x0 c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x000007d8        0x0 c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+                0x000007d8                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000007d8        0x0 c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+                0x000007d8                exit
+                0x000007d8                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000007d8        0x4 c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x000007dc                _etext = .
+
+.data           0x00800100        0xe load address 0x000007dc
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+ .data          0x00800100        0xc .\obj\dados1.pde.cpp.o
+                0x00800102                LED_VM
+                0x00800100                timer
+                0x00800106                LED_AZ
+                0x00800108                LED_VM0
+                0x00800104                LED_VD
+                0x0080010a                LED_VM1
+ .data          0x0080010c        0x0 .\obj\arduino_runtime_atmega328p_withlibs.a(wiring.c.o)
+ .data          0x0080010c        0x1 .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_analog.c.o)
+                0x0080010c                analog_reference
+ .data          0x0080010d        0x0 .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_digital.c.o)
+ .data          0x0080010d        0x0 .\obj\arduino_runtime_atmega328p_withlibs.a(main.cpp.o)
+ .data          0x0080010d        0x0 .\obj\arduino_runtime_atmega328p_withlibs.a(pins_arduino.c.o)
+ .data          0x0080010d        0x0 c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+ .data          0x0080010d        0x0 c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+ .data          0x0080010d        0x0 c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x0080010e                . = ALIGN (0x2)
+ *fill*         0x0080010d        0x1 00
+                0x0080010e                _edata = .
+                0x0080010e                PROVIDE (__data_end, .)
+
+.bss            0x0080010e        0x9
+                0x0080010e                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0080010e        0x0 c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+ .bss           0x0080010e        0x0 .\obj\dados1.pde.cpp.o
+ .bss           0x0080010e        0x9 .\obj\arduino_runtime_atmega328p_withlibs.a(wiring.c.o)
+                0x0080010e                timer0_overflow_count
+                0x00800112                timer0_millis
+ .bss           0x00800117        0x0 .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_analog.c.o)
+ .bss           0x00800117        0x0 .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_digital.c.o)
+ .bss           0x00800117        0x0 .\obj\arduino_runtime_atmega328p_withlibs.a(main.cpp.o)
+ .bss           0x00800117        0x0 .\obj\arduino_runtime_atmega328p_withlibs.a(pins_arduino.c.o)
+ .bss           0x00800117        0x0 c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+ .bss           0x00800117        0x0 c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00800117        0x0 c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+ *(.bss*)
+ *(COMMON)
+                0x00800117                PROVIDE (__bss_end, .)
+                0x000007dc                __data_load_start = LOADADDR (.data)
+                0x000007ea                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800117        0x0
+                0x00800117                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800117                PROVIDE (__noinit_end, .)
+                0x00800117                _end = .
+                0x00800117                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xa0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 .\obj\dados1.pde.cpp.o
+ .debug_aranges
+                0x00000020       0x20 .\obj\arduino_runtime_atmega328p_withlibs.a(wiring.c.o)
+ .debug_aranges
+                0x00000040       0x20 .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_analog.c.o)
+ .debug_aranges
+                0x00000060       0x20 .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_digital.c.o)
+ .debug_aranges
+                0x00000080       0x20 .\obj\arduino_runtime_atmega328p_withlibs.a(main.cpp.o)
+
+.debug_pubnames
+                0x00000000      0x256
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x68 .\obj\dados1.pde.cpp.o
+ .debug_pubnames
+                0x00000068       0x8d .\obj\arduino_runtime_atmega328p_withlibs.a(wiring.c.o)
+ .debug_pubnames
+                0x000000f5       0x5a .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_analog.c.o)
+ .debug_pubnames
+                0x0000014f       0x3f .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_digital.c.o)
+ .debug_pubnames
+                0x0000018e       0x1b .\obj\arduino_runtime_atmega328p_withlibs.a(main.cpp.o)
+ .debug_pubnames
+                0x000001a9       0xad .\obj\arduino_runtime_atmega328p_withlibs.a(pins_arduino.c.o)
+
+.debug_info     0x00000000      0xc6c
+ *(.debug_info)
+ .debug_info    0x00000000      0x15f .\obj\dados1.pde.cpp.o
+ .debug_info    0x0000015f      0x262 .\obj\arduino_runtime_atmega328p_withlibs.a(wiring.c.o)
+ .debug_info    0x000003c1      0x1ab .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_analog.c.o)
+ .debug_info    0x0000056c      0x4bc .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_digital.c.o)
+ .debug_info    0x00000a28       0xe0 .\obj\arduino_runtime_atmega328p_withlibs.a(main.cpp.o)
+ .debug_info    0x00000b08      0x164 .\obj\arduino_runtime_atmega328p_withlibs.a(pins_arduino.c.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0x52a
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x71 .\obj\dados1.pde.cpp.o
+ .debug_abbrev  0x00000071      0x14d .\obj\arduino_runtime_atmega328p_withlibs.a(wiring.c.o)
+ .debug_abbrev  0x000001be      0x115 .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_analog.c.o)
+ .debug_abbrev  0x000002d3      0x171 .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_digital.c.o)
+ .debug_abbrev  0x00000444       0x60 .\obj\arduino_runtime_atmega328p_withlibs.a(main.cpp.o)
+ .debug_abbrev  0x000004a4       0x86 .\obj\arduino_runtime_atmega328p_withlibs.a(pins_arduino.c.o)
+
+.debug_line     0x00000000      0xe13
+ *(.debug_line)
+ .debug_line    0x00000000      0x271 .\obj\dados1.pde.cpp.o
+ .debug_line    0x00000271      0x33b .\obj\arduino_runtime_atmega328p_withlibs.a(wiring.c.o)
+ .debug_line    0x000005ac      0x28e .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_analog.c.o)
+ .debug_line    0x0000083a      0x2fb .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_digital.c.o)
+ .debug_line    0x00000b35      0x179 .\obj\arduino_runtime_atmega328p_withlibs.a(main.cpp.o)
+ .debug_line    0x00000cae      0x165 .\obj\arduino_runtime_atmega328p_withlibs.a(pins_arduino.c.o)
+
+.debug_frame    0x00000000      0x140
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x30 .\obj\dados1.pde.cpp.o
+ .debug_frame   0x00000030       0x70 .\obj\arduino_runtime_atmega328p_withlibs.a(wiring.c.o)
+ .debug_frame   0x000000a0       0x40 .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_analog.c.o)
+ .debug_frame   0x000000e0       0x40 .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_digital.c.o)
+ .debug_frame   0x00000120       0x20 .\obj\arduino_runtime_atmega328p_withlibs.a(main.cpp.o)
+
+.debug_str      0x00000000      0x412
+ *(.debug_str)
+ .debug_str     0x00000000       0xb9 .\obj\dados1.pde.cpp.o
+                                 0xf2 (size before relaxing)
+ .debug_str     0x000000b9       0xd9 .\obj\arduino_runtime_atmega328p_withlibs.a(wiring.c.o)
+                                0x154 (size before relaxing)
+ .debug_str     0x00000192       0xd3 .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_analog.c.o)
+                                0x15c (size before relaxing)
+ .debug_str     0x00000265       0xf8 .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_digital.c.o)
+                                0x1c9 (size before relaxing)
+ .debug_str     0x0000035d       0x5a .\obj\arduino_runtime_atmega328p_withlibs.a(main.cpp.o)
+                                 0xdc (size before relaxing)
+ .debug_str     0x000003b7       0x5b .\obj\arduino_runtime_atmega328p_withlibs.a(pins_arduino.c.o)
+                                0x171 (size before relaxing)
+
+.debug_loc      0x00000000      0x396
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x16d .\obj\arduino_runtime_atmega328p_withlibs.a(wiring.c.o)
+ .debug_loc     0x0000016d      0x13a .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_analog.c.o)
+ .debug_loc     0x000002a7       0xef .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_digital.c.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(.\obj\dados1.pde.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+LED_AZ                                            .\obj\dados1.pde.cpp.o
+LED_VD                                            .\obj\dados1.pde.cpp.o
+LED_VM                                            .\obj\dados1.pde.cpp.o
+LED_VM0                                           .\obj\dados1.pde.cpp.o
+LED_VM1                                           .\obj\dados1.pde.cpp.o
+__bad_interrupt                                   c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__bss_end                                         c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+__bss_start                                       c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+__data_end                                        c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+__data_load_start                                 c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+__data_start                                      c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+__do_clear_bss                                    c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_clear_bss.o)
+                                                  .\obj\arduino_runtime_atmega328p_withlibs.a(pins_arduino.c.o)
+                                                  .\obj\arduino_runtime_atmega328p_withlibs.a(main.cpp.o)
+                                                  .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_digital.c.o)
+                                                  .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_analog.c.o)
+                                                  .\obj\arduino_runtime_atmega328p_withlibs.a(wiring.c.o)
+                                                  .\obj\dados1.pde.cpp.o
+__do_copy_data                                    c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_copy_data.o)
+                                                  .\obj\arduino_runtime_atmega328p_withlibs.a(pins_arduino.c.o)
+                                                  .\obj\arduino_runtime_atmega328p_withlibs.a(main.cpp.o)
+                                                  .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_digital.c.o)
+                                                  .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_analog.c.o)
+                                                  .\obj\arduino_runtime_atmega328p_withlibs.a(wiring.c.o)
+                                                  .\obj\dados1.pde.cpp.o
+__heap_end                                        c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__init                                            c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__stack                                           c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vector_1                                        c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vector_10                                       c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vector_11                                       c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vector_12                                       c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vector_13                                       c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vector_14                                       c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vector_15                                       c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vector_16                                       .\obj\arduino_runtime_atmega328p_withlibs.a(wiring.c.o)
+                                                  c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vector_17                                       c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vector_18                                       c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vector_19                                       c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vector_2                                        c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vector_20                                       c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vector_21                                       c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vector_22                                       c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vector_23                                       c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vector_24                                       c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vector_25                                       c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vector_3                                        c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vector_4                                        c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vector_5                                        c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vector_6                                        c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vector_7                                        c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vector_8                                        c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vector_9                                        c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vector_default                                  c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+__vectors                                         c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+_exit                                             c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+analogRead                                        .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_analog.c.o)
+analogReference                                   .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_analog.c.o)
+analogWrite                                       .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_analog.c.o)
+                                                  .\obj\dados1.pde.cpp.o
+analog_reference                                  .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_analog.c.o)
+delay                                             .\obj\arduino_runtime_atmega328p_withlibs.a(wiring.c.o)
+                                                  .\obj\dados1.pde.cpp.o
+delayMicroseconds                                 .\obj\arduino_runtime_atmega328p_withlibs.a(wiring.c.o)
+digitalRead                                       .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_digital.c.o)
+digitalWrite                                      .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_digital.c.o)
+                                                  .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_analog.c.o)
+                                                  .\obj\dados1.pde.cpp.o
+digital_pin_to_bit_mask_PGM                       .\obj\arduino_runtime_atmega328p_withlibs.a(pins_arduino.c.o)
+                                                  .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_digital.c.o)
+digital_pin_to_port_PGM                           .\obj\arduino_runtime_atmega328p_withlibs.a(pins_arduino.c.o)
+                                                  .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_digital.c.o)
+digital_pin_to_timer_PGM                          .\obj\arduino_runtime_atmega328p_withlibs.a(pins_arduino.c.o)
+                                                  .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_digital.c.o)
+                                                  .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_analog.c.o)
+exit                                              c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/avr5\libgcc.a(_exit.o)
+                                                  c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+init                                              .\obj\arduino_runtime_atmega328p_withlibs.a(wiring.c.o)
+                                                  .\obj\arduino_runtime_atmega328p_withlibs.a(main.cpp.o)
+loop                                              .\obj\dados1.pde.cpp.o
+                                                  .\obj\arduino_runtime_atmega328p_withlibs.a(main.cpp.o)
+main                                              .\obj\arduino_runtime_atmega328p_withlibs.a(main.cpp.o)
+                                                  c:/users/ucanacuca-pc/documents/arduino-0019/hardware/tools/avr/bin/../lib/gcc/avr/4.3.2/../../../../avr/lib/avr5/crtm328p.o
+micros                                            .\obj\arduino_runtime_atmega328p_withlibs.a(wiring.c.o)
+millis                                            .\obj\arduino_runtime_atmega328p_withlibs.a(wiring.c.o)
+pinMode                                           .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_digital.c.o)
+                                                  .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_analog.c.o)
+                                                  .\obj\dados1.pde.cpp.o
+port_to_input_PGM                                 .\obj\arduino_runtime_atmega328p_withlibs.a(pins_arduino.c.o)
+                                                  .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_digital.c.o)
+port_to_mode_PGM                                  .\obj\arduino_runtime_atmega328p_withlibs.a(pins_arduino.c.o)
+                                                  .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_digital.c.o)
+port_to_output_PGM                                .\obj\arduino_runtime_atmega328p_withlibs.a(pins_arduino.c.o)
+                                                  .\obj\arduino_runtime_atmega328p_withlibs.a(wiring_digital.c.o)
+setup                                             .\obj\dados1.pde.cpp.o
+                                                  .\obj\arduino_runtime_atmega328p_withlibs.a(main.cpp.o)
+timer                                             .\obj\dados1.pde.cpp.o
+timer0_millis                                     .\obj\arduino_runtime_atmega328p_withlibs.a(wiring.c.o)
+timer0_overflow_count                             .\obj\arduino_runtime_atmega328p_withlibs.a(wiring.c.o)
