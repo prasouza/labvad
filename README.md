@@ -31,7 +31,7 @@ JavaScript: Linguagem de programação para adicionar interatividade ao frontend
 MySQL: Sistema de gerenciamento de banco de dados relacional.
 
 ✅ Validação Conceitual
-O projeto passou por um processo de validação conceitual para verificar a viabilidade e o potencial pedagógico do laboratório virtual. [Aqui você pode adicionar um breve resumo dos métodos e principais conclusões da validação, se desejar].
+O projeto passou por um processo de validação conceitual para verificar a viabilidade e o potencial pedagógico do laboratório virtual. 
 
 📖 Revisão Bibliográfica
 A dissertação que fundamenta este projeto apresenta uma revisão bibliográfica abrangente sobre o uso de laboratórios remotos no ensino de Ciências e, especificamente, de Robótica, contextualizando a proposta e explorando as melhores práticas na área.
