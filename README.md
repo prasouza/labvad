@@ -1,4 +1,4 @@
-LABVAD - DESENHO E IMPLEMENTAÇÃO DO LABORATÓRIO VIRTUAL DE ATIVIDADES DIDÁTICAS COM ROBÓTICA
+🤖 LABVAD - DESENHO E IMPLEMENTAÇÃO DO LABORATÓRIO VIRTUAL DE ATIVIDADES DIDÁTICAS COM ROBÓTICA
 
 🔍 Visão Geral do Projeto
 Este projeto apresenta o design, desenvolvimento e validação conceitual de um laboratório virtual com acesso remoto, dedicado a atividades educacionais na área de Robótica. Utilizando a plataforma Arduino como base, o ambiente virtual permite a interação com diversos dispositivos eletrônicos, como displays, motores, sensores e LEDs, além de integrar visualização através de câmeras. A plataforma foi construída com tecnologias de código aberto, incluindo PHP, HTML, CSS, JavaScript e MySQL.
