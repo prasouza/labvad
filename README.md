@@ -34,7 +34,8 @@ MySQL: Sistema de gerenciamento de banco de dados relacional.
 O projeto passou por um processo de validação conceitual para verificar a viabilidade e o potencial pedagógico do laboratório virtual. 
 
 📖 Revisão Bibliográfica
-A dissertação que fundamenta este projeto apresenta uma revisão bibliográfica abrangente sobre o uso de laboratórios remotos no ensino de Ciências e, especificamente, de Robótica, contextualizando a proposta e explorando as melhores práticas na área.
+A dissertação que fundamenta este projeto apresenta uma revisão bibliográfica abrangente sobre o uso de laboratórios remotos no ensino de Ciências e, especificamente, de Robótica, contextualizando a proposta e explorando as melhores práticas na área: 
+👉 http://www.nce.ufrj.br/ginape/livre/paginas/dissertacoes/d_2015_paulo_roberto_de_azevedo_souza.pdf
 
 📊 Avaliações
 Tanto o processo de desenvolvimento do laboratório virtual quanto o produto final foram submetidos a avaliações para garantir sua qualidade e eficácia para o aprendizado.
